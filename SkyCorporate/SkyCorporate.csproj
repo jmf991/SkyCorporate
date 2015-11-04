@@ -94,6 +94,7 @@
     <Content Include="assets\css\navs.css" />
     <Content Include="assets\css\print.css" />
     <Content Include="assets\css\screens.css" />
+    <Content Include="new-templates\myfolder.aspx" />
     <Content Include="packages.config" />
     <Content Include="assets2015\styles\components\_banner.scss" />
     <Content Include="assets2015\styles\components\_flippingCards.scss" />
@@ -370,6 +371,13 @@
     </Compile>
     <Compile Include="new-templates\imagevideolibrarypage.aspx.designer.cs">
       <DependentUpon>imagevideolibrarypage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="new-templates\myfolder.aspx.cs">
+      <DependentUpon>myfolder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="new-templates\myfolder.aspx.designer.cs">
+      <DependentUpon>myfolder.aspx</DependentUpon>
     </Compile>
     <Compile Include="new-templates\T00-landingpage.aspx.cs">
       <DependentUpon>T00-landingpage.aspx</DependentUpon>
