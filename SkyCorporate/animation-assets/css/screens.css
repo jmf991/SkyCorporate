@@ -1,0 +1,134 @@
+@media only screen and (max-width:1200px) {
+    .media-widget { height:auto; }
+    .media-display { float:none; height:auto; width:100%; }
+    .media-display img { height:auto; }
+    .media-articles { float:none; width:100%; }
+    .media-article { border-bottom:0; border-right:1px solid #ccc; float:left; height:200px; width:33.33%; }
+    .media-article:last-child { border-right:0; }
+
+    .skycom-carousel.hero-3-1 .poster { position: relative; max-height: 1000000000000px !important; min-height: 0 !important; height: auto !important; padding: 0 0 33% 0; width: 100%; }
+    .skycom-carousel.hero-3-1 .poster img { position: absolute;  top: 0;  left: 0; width: 100%; height: auto; }
+
+    .shareprice-impulse .box-top p.share-price { font-size: 48px; line-height: 50px; /*padding: 0; */}
+    .shareprice-impulse .box-top .box-top-inner { padding: 10px; width: 100%;  }
+    .shareprice-impulse .box-top p { /*padding: 0; */}
+        
+    
+}
+
+@media only screen and (max-width:1024px) and (orientation : portrait) {
+    .sky-link, .search, .navigation, .navigation li:hover .drop-nav, .copyright { display:none; }
+    .navigation-trigger, .navigation.active, .footer-row.last, .copyright.mobile { display:block; }
+    .logo { position:relative; top:10px; }
+    .logo img { height:30px; width:auto!Important;  }
+    .navigation { padding-top:15px; }
+    .navigation li { float:none; margin-right:0;  }
+    .navigation li a { border-bottom:0; padding-bottom:0; }
+    .navigation li a:focus, .navigation li a:hover { text-decoration:underline; }
+    .navigation li a.active { color:#0070a5; }
+    .content-head .selection { position:relative; top:auto; right:auto; width:100%; }
+    .row-image { margin-bottom:10px; width:100%; }
+    .sky-logos li { float:none; margin:15px 0; width:100%; }
+    .sky-logos li a { margin:0; }
+    .sky-logos li img { width:100%; }
+    .sky-channels { position:relative; }
+    .sky-channels li { float:none; margin:10px 0; }
+    .sky-channels li:last-child { margin-bottom:0; }
+    .selection-row .selection { margin-bottom:20px; }
+    .share-bar ul li { margin:0 15px 0 0; width:auto; }
+    .subscribe-button { float:none; }
+    .footer-row.last { border:0; padding:15px 0 0 0; position:static; margin-bottom:0; }
+    .footer-row.last .footer-links li { margin-bottom:10px; }
+    .footer-links { width:100%; }
+    .country-link { top:auto; bottom:13px; }
+    .media-display a { color:#333; }
+    .media-info { position:relative; left:auto; bottom:auto; width:100%; }
+    .media-article { border-bottom:1px solid #ccc; border-right:0; float:none; height:auto; width:100%; }
+    .media-article:last-child { border-bottom:0;  }
+
+    .box.figure-impulse .title-margin .page-title  {  margin: 24px 0; line-height: inherit; min-height: 0; }
+    
+    
+    .sliding-banner .nav-wrapper ul { padding-left: 25px; padding-bottom: 40px; }
+    
+    .materiality-wheel-wrapper .wheel-image { display: none; }
+    .materiality-wheel-wrapper .wheel-box { position: relative; top: 0; left: 0 !important; width: 100% !important; margin: 0 !important; max-width: 100% !important; }
+    
+    #skycom-breadcrumb ul li { display: inline-block; }
+    #skycom-breadcrumb ul li .skycon-chevron { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: none; transform: rotate(0deg); }
+    
+    .dropdown-tab-select { top: 0; }
+    
+    
+    .shareprice-impulse .box-top {}
+    .shareprice-impulse .box-top .box-top-inner { padding: 10px; width: 100%;  }
+    .shareprice-impulse .box-top p.share-price {  font-size:26px; line-height:30px; }
+    .shareprice-impulse .box-top p { padding: 0; }
+    
+    .box .pod-title { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+}
+
+
+@media only screen and (max-width:767px) {
+    .sky-link, .search, .navigation, .navigation li:hover .drop-nav, .copyright { display:none; }
+    .navigation-trigger, .navigation.active, .footer-row.last, .copyright.mobile { display:block; }
+    .logo { position:relative; top:10px; }
+    .logo img { height:30px; width:auto!Important;  }
+    .navigation { padding-top:15px; }
+    .navigation li { float:none; margin-right:0;  }
+    .navigation li a { border-bottom:0; padding-bottom:0; }
+    .navigation li a:focus, .navigation li a:hover { text-decoration:underline; }
+    .navigation li a.active { color:#0070a5; }
+    .content-head .selection { position:relative; top:auto; right:auto; width:100%; }
+    .row-image { margin-bottom:10px; width:100%; }
+    .sky-logos li { float:none; margin:15px 0; width:100%; }
+    .sky-logos li a { margin:0; }
+    .sky-logos li img { width:100%; }
+    .sky-channels { position:relative; }
+    .sky-channels li { float:none; margin:10px 0; }
+    .sky-channels li:last-child { margin-bottom:0; }
+    .selection-row .selection { margin-bottom:20px; }
+    .share-bar ul li { margin:0 15px 0 0; width:auto; }
+    .subscribe-button { float:none; }
+    .footer-row.last { border:0; padding:15px 0 0 0; position:static; margin-bottom:0; }
+    .footer-row.last .footer-links li { margin-bottom:10px; }
+    .footer-links { width:100%; }
+    .country-link { top:auto; bottom:13px; }
+    .media-display a { color:#333; }
+    .media-info { position:relative; left:auto; bottom:auto; width:100%; }
+    .media-article { border-bottom:1px solid #ccc; border-right:0; float:none; height:auto; width:100%; }
+    .media-article:last-child { border-bottom:0;  }
+
+    .box.figure-impulse .title-margin .page-title  {  margin: 24px 0; line-height: inherit; min-height: 0; }
+    
+    
+    .sliding-banner .nav-wrapper ul { padding-left: 25px; padding-bottom: 40px; }
+    
+    .materiality-wheel-wrapper .wheel-image { display: none; }
+    .materiality-wheel-wrapper .wheel-box { position: relative; top: 0; left: 0 !important; width: 100% !important; margin: 0 !important; max-width: 100% !important; }
+    
+    #skycom-breadcrumb ul li { display: inline-block; }
+    #skycom-breadcrumb ul li .skycon-chevron { -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: none; transform: rotate(0deg); }
+    
+    .dropdown-tab-select { top: 0; }
+    
+
+    .shareprice-impulse .box-top {}
+    .shareprice-impulse .box-top .box-top-inner { padding: 10px; width: 100%;  }
+    .shareprice-impulse .box-top p.share-price {  font-size:60px; line-height:60px; }
+    .shareprice-impulse .box-top p { font-size:17px; line-height:21px;}
+    
+    .shareprice-impulse .box-top { padding: 0; }
+    .shareprice-impulse .box-top .box-top-inner { position: relative; }
+    
+    .box .pod-title { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+}
+
+@media only screen and (max-width:320px) {
+    .share-bar ul li { margin-right:10px; }
+}
+
+@media (max-width: 600px){
+.skycom-carousel .actions .next, .skycom-carousel .actions .previous { position: absolute; height: 75px; top: -55px; margin-top: 16%; margin-top: 16vw;
+}

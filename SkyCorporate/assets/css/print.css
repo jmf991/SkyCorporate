@@ -1,0 +1,15 @@
+﻿@media print {@page {size: landscape}
+ body { min-width: 1200px!Important; }
+ .navigation, 
+ .sky-link, 
+ .search, 
+ #skycom-breadcrumb, 
+ .post-comment, 
+ #comments-form, 
+ #footer, 
+ #whole-page-nav-tabs,
+ .title-folder-filter, 
+ .share-popup,
+ .load-more,
+ .skycom-carousel { display: none !important; } 
+}

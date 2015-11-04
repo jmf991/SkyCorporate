@@ -1,0 +1,17 @@
+.flip { max-width: 100%;}
+.small-flip{padding-bottom:45%}
+.large-flip{padding-bottom:62%}
+.large-static{padding-bottom:2%}
+.fadeout{-webkit-transition: all 0.1s ease-in-out;-o-transition: all 0.1s ease-in-out;-ms-transition: all 0.1s ease-in-out;opacity:0.2}
+.fadein{-webkit-transition: opacity 0.1s ease-in;-o-transition: opacity 0.1s ease-in;transition: opacity 0.1s ease-in;opacity:1}
+.mb20{margin-bottom:20px}
+.subtext{font-size:12px }
+.js-group-overlay { position: relative; }
+.js-group-overlay:before{ pointer-events: none; content:" ";width:100%;position:absolute;background-color:grey;z-index:3 ; -webkit-border-radius: 30px;  -moz-border-radius: 30px;  -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in;  -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;  opacity:0; padding-bottom:42%; }
+.js-group-overlay.small-flip:before{ padding-bottom:42%;  border-radius: 30px;   -webkit-border-radius: 30px;  -moz-border-radius: 30px;  }
+.js-group-overlay.large-flip:before{ padding-bottom:58%;   border-radius: 30px;  -webkit-border-radius: 30px;  -moz-border-radius: 30px;  }
+.js-group-overlay.large-static:before{ padding-bottom:0%; border-radius: 15px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px; }
+.js-group-overlay.disabled-overlay:before{ opacity:0.6; }
+.cross-wrapper{position:absolute;right:10px;top:10px}
+@media screen and (min-width: 767px) { .mobile-content{display:none} }
+@media screen and (max-width: 767px) { .desktop-content{display:none} }

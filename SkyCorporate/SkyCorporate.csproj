@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6A51BB9-7945-4BC2-8410-CB669B0CAF30}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkyCorporate</RootNamespace>
+    <AssemblyName>SkyCorporate</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets2015\styles\components\custom.css">
+      <DependentUpon>_custom.scss</DependentUpon>
+    </Content>
+    <Content Include="assets\css\contentflow.css" />
+    <Content Include="assets\css\fineuploader.css" />
+    <Content Include="assets\css\font.css" />
+    <Content Include="assets\css\global.css" />
+    <Content Include="assets\css\hacks.css" />
+    <Content Include="assets\css\img\1x1_0.5_black.png" />
+    <Content Include="assets\css\img\blank.gif" />
+    <Content Include="assets\css\img\ie8-mf-hack.png" />
+    <Content Include="assets\css\img\loader.gif" />
+    <Content Include="assets\css\img\scrollbar_sky.png" />
+    <Content Include="assets\css\img\scrollbar_white.png" />
+    <Content Include="assets\css\img\slider_sky.png" />
+    <Content Include="assets\css\img\slider_sky_16.png" />
+    <Content Include="assets\css\img\slider_white.png" />
+    <Content Include="assets\css\impulses.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\main.min.css" />
+    <Content Include="assets\css\modules.css" />
+    <Content Include="assets\css\navs.css" />
+    <Content Include="assets\css\print.css" />
+    <Content Include="assets\css\screens.css" />
+    <Content Include="packages.config" />
+    <Content Include="assets2015\styles\components\_banner.scss" />
+    <Content Include="assets2015\styles\components\_flippingCards.scss" />
+    <Content Include="assets2015\styles\components\_map.scss" />
+    <Content Include="assets2015\styles\components\_override.scss" />
+    <Content Include="assets2015\styles\components\_sgbak\_slider.scss.2015-04-20.15-56-56.7333" />
+    <Content Include="assets2015\styles\main.css.map" />
+    <Content Include="assets2015\styles\main.scss" />
+    <Content Include="assets2015\styles\components\_custom.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="animation-assets\css\flip.css" />
+    <Content Include="animation-assets\css\font.css" />
+    <Content Include="animation-assets\css\global.css" />
+    <Content Include="animation-assets\css\img\1x1_0.5_black.png" />
+    <Content Include="animation-assets\css\img\blank.gif" />
+    <Content Include="animation-assets\css\img\ie8-mf-hack.png" />
+    <Content Include="animation-assets\css\img\loader.gif" />
+    <Content Include="animation-assets\css\img\scrollbar_sky.png" />
+    <Content Include="animation-assets\css\img\scrollbar_white.png" />
+    <Content Include="animation-assets\css\img\slider_sky.png" />
+    <Content Include="animation-assets\css\img\slider_sky_16.png" />
+    <Content Include="animation-assets\css\img\slider_white.png" />
+    <Content Include="animation-assets\css\main.css" />
+    <Content Include="animation-assets\css\main.min.css" />
+    <Content Include="animation-assets\css\modules.css" />
+    <Content Include="animation-assets\css\navs.css" />
+    <Content Include="animation-assets\css\print.css" />
+    <Content Include="animation-assets\css\screens.css" />
+    <Content Include="animation-assets\images\back\blue-cross.png" />
+    <Content Include="animation-assets\images\back\customers.png" />
+    <Content Include="animation-assets\images\back\cyclin.png" />
+    <Content Include="animation-assets\images\back\diversity.png" />
+    <Content Include="animation-assets\images\back\economy.png" />
+    <Content Include="animation-assets\images\back\enviroment.png" />
+    <Content Include="animation-assets\images\back\financial.png" />
+    <Content Include="animation-assets\images\back\health.png" />
+    <Content Include="animation-assets\images\back\orange-cross.png" />
+    <Content Include="animation-assets\images\back\purple-cross.png" />
+    <Content Include="animation-assets\images\back\rainforrest.png" />
+    <Content Include="animation-assets\images\back\social.png" />
+    <Content Include="animation-assets\images\back\staff.png" />
+    <Content Include="animation-assets\images\back\suppliers.png" />
+    <Content Include="animation-assets\images\back\training.png" />
+    <Content Include="animation-assets\images\front\customers.png" />
+    <Content Include="animation-assets\images\front\cyclin.gif" />
+    <Content Include="animation-assets\images\front\cycling.gif" />
+    <Content Include="animation-assets\images\front\diversity.gif" />
+    <Content Include="animation-assets\images\front\economic.gif" />
+    <Content Include="animation-assets\images\front\economy.gif" />
+    <Content Include="animation-assets\images\front\enviroment.gif" />
+    <Content Include="animation-assets\images\front\financial.png" />
+    <Content Include="animation-assets\images\front\health.gif" />
+    <Content Include="animation-assets\images\front\rainforrest.gif" />
+    <Content Include="animation-assets\images\front\social.gif" />
+    <Content Include="animation-assets\images\front\staff.png" />
+    <Content Include="animation-assets\images\front\suppliers.gif" />
+    <Content Include="animation-assets\images\front\training.gif" />
+    <Content Include="animation-assets\images\large\inspiring.png" />
+    <Content Include="animation-assets\images\large\positive.png" />
+    <Content Include="animation-assets\images\large\responsible.png" />
+    <Content Include="animation-assets\scripts\flip.js" />
+    <Content Include="animation-assets\scripts\functions.js" />
+    <Content Include="animation-assets\scripts\jquery.js" />
+    <Content Include="animation-assets\scripts\main.js" />
+    <Content Include="assets2015\images\samples\section-banner-mobile-1.jpg" />
+    <Content Include="assets2015\images\samples\section-banner-mobile-2.jpg" />
+    <Content Include="assets2015\images\samples\section-banner-mobile-3.jpg" />
+    <Content Include="assets2015\images\samples\section-banner-mobile-4.jpg" />
+    <Content Include="assets2015\images\samples\section-banner-mobile-5.jpg" />
+    <Content Include="assets2015\images\samples\section-banner1.jpg" />
+    <Content Include="assets2015\images\samples\section-banner2.jpg" />
+    <Content Include="assets2015\images\samples\section-banner3.jpg" />
+    <Content Include="assets2015\images\samples\section-banner4.jpg" />
+    <Content Include="assets2015\images\samples\section-banner5.jpg" />
+    <Content Include="assets2015\images\samples\Untitled-1.jpg" />
+    <Content Include="assets2015\images\samples\Untitled-1.png" />
+    <Content Include="assets2015\images\samples\Untitled-11.jpg" />
+    <Content Include="assets2015\images\samples\Untitled-12.jpg" />
+    <Content Include="assets2015\images\samples\Untitled-2.jpg" />
+    <Content Include="assets2015\images\samples\Untitled-3.jpg" />
+    <Content Include="assets2015\images\sky_colour_bar.jpg" />
+    <Content Include="assets2015\scripts\functions.js" />
+    <Content Include="assets2015\scripts\main.js" />
+    <Content Include="assets2015\styles\main.css">
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Include="assets\images\ar2015\banner-ar2015.jpg" />
+    <Content Include="assets\images\ar2015\banner-border.jpg" />
+    <Content Include="assets\images\cirlceIcons\circle0.png" />
+    <Content Include="assets\images\cirlceIcons\circle1.png" />
+    <Content Include="assets\images\cirlceIcons\circle2.png" />
+    <Content Include="assets\images\cirlceIcons\circle3.png" />
+    <Content Include="assets\images\cirlceIcons\circle4.png" />
+    <Content Include="assets\images\cirlceIcons\circle6.png" />
+    <Content Include="assets\images\down.png" />
+    <Content Include="assets\images\flippingCards\back\blue-cross.png" />
+    <Content Include="assets\images\flippingCards\back\customers.png" />
+    <Content Include="assets\images\flippingCards\back\cyclin.png" />
+    <Content Include="assets\images\flippingCards\back\diversity.png" />
+    <Content Include="assets\images\flippingCards\back\economy.png" />
+    <Content Include="assets\images\flippingCards\back\enviroment.png" />
+    <Content Include="assets\images\flippingCards\back\financial.png" />
+    <Content Include="assets\images\flippingCards\back\health.png" />
+    <Content Include="assets\images\flippingCards\back\orange-cross.png" />
+    <Content Include="assets\images\flippingCards\back\purple-cross.png" />
+    <Content Include="assets\images\flippingCards\back\rainforrest.png" />
+    <Content Include="assets\images\flippingCards\back\social.png" />
+    <Content Include="assets\images\flippingCards\back\staff.png" />
+    <Content Include="assets\images\flippingCards\back\suppliers.png" />
+    <Content Include="assets\images\flippingCards\back\training.png" />
+    <Content Include="assets\images\flippingCards\front\customers.png" />
+    <Content Include="assets\images\flippingCards\front\cyclin.gif" />
+    <Content Include="assets\images\flippingCards\front\cycling.gif" />
+    <Content Include="assets\images\flippingCards\front\diversity.gif" />
+    <Content Include="assets\images\flippingCards\front\economic.gif" />
+    <Content Include="assets\images\flippingCards\front\economy.gif" />
+    <Content Include="assets\images\flippingCards\front\enviroment.gif" />
+    <Content Include="assets\images\flippingCards\front\financial.png" />
+    <Content Include="assets\images\flippingCards\front\health.gif" />
+    <Content Include="assets\images\flippingCards\front\rainforrest.gif" />
+    <Content Include="assets\images\flippingCards\front\social.gif" />
+    <Content Include="assets\images\flippingCards\front\staff.png" />
+    <Content Include="assets\images\flippingCards\front\suppliers.gif" />
+    <Content Include="assets\images\flippingCards\front\training.gif" />
+    <Content Include="assets\images\flippingCards\large\inspiring.png" />
+    <Content Include="assets\images\flippingCards\large\positive.png" />
+    <Content Include="assets\images\flippingCards\large\responsible.png" />
+    <Content Include="assets\images\footer-bg.png" />
+    <Content Include="assets\images\ico-email-facebook.png" />
+    <Content Include="assets\images\ico-email-google.png" />
+    <Content Include="assets\images\ico-email-twitter.png" />
+    <Content Include="assets\images\ico-facebook.png" />
+    <Content Include="assets\images\ico-google-plus.png" />
+    <Content Include="assets\images\ico-twitter.png" />
+    <Content Include="assets\images\icon-noimage.png" />
+    <Content Include="assets\images\icon-pdf.png" />
+    <Content Include="assets\images\icon-search.png" />
+    <Content Include="assets\images\ireland-flag.png" />
+    <Content Include="assets\images\items-wheel.png" />
+    <Content Include="assets\images\loading.gif" />
+    <Content Include="assets\images\logo-small.png" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\logo_map.png" />
+    <Content Include="assets\images\marker.png" />
+    <Content Include="assets\images\marker_highlighted.png" />
+    <Content Include="assets\images\marker_selected.png" />
+    <Content Include="assets\images\materiality-wheel-arrow.jpg" />
+    <Content Include="assets\images\new-site.jpg" />
+    <Content Include="assets\images\partnerts_map.png" />
+    <Content Include="assets\images\partnerts_map_v2.jpg" />
+    <Content Include="assets\images\pencilIcon.png" />
+    <Content Include="assets\images\readmorebutton.jpg" />
+    <Content Include="assets\images\searching-icon.png" />
+    <Content Include="assets\images\strategy\1.JPG" />
+    <Content Include="assets\images\strategy\1a.jpg" />
+    <Content Include="assets\images\strategy\2.JPG" />
+    <Content Include="assets\images\strategy\2a.jpg" />
+    <Content Include="assets\images\strategy\3.JPG" />
+    <Content Include="assets\images\strategy\3a.jpg" />
+    <Content Include="assets\images\strategy\inspiring.png" />
+    <Content Include="assets\images\strategy\new_sky1.png" />
+    <Content Include="assets\images\strategy\new_sky2.png" />
+    <Content Include="assets\images\strategy\new_sky3.png" />
+    <Content Include="assets\images\strategy\positive.png" />
+    <Content Include="assets\images\strategy\responsible.png" />
+    <Content Include="assets\images\test-images\annual-report.jpg" />
+    <Content Include="assets\images\test-images\article-box.jpg" />
+    <Content Include="assets\images\test-images\blog-sky.png" />
+    <Content Include="assets\images\test-images\box-dark.jpg" />
+    <Content Include="assets\images\test-images\box-light.jpg" />
+    <Content Include="assets\images\test-images\dallas-buyers-club.jpg" />
+    <Content Include="assets\images\test-images\file.png" />
+    <Content Include="assets\images\test-images\financial-calendar.jpg" />
+    <Content Include="assets\images\test-images\hulk-big.jpg" />
+    <Content Include="assets\images\test-images\iron-man-big.jpg" />
+    <Content Include="assets\images\test-images\latest-news.jpg" />
+    <Content Include="assets\images\test-images\our-performance.jpg" />
+    <Content Include="assets\images\test-images\q2-results.jpg" />
+    <Content Include="assets\images\test-images\shareholder-information.jpg" />
+    <Content Include="assets\images\test-images\signup-gray.png" />
+    <Content Include="assets\images\test-images\signup-white.png" />
+    <Content Include="assets\images\test-images\sky-academy.jpg" />
+    <Content Include="assets\images\test-images\slidingBanner.png" />
+    <Content Include="assets\images\test-images\strategy-circle.png" />
+    <Content Include="assets\images\test-images\thor-big.jpg" />
+    <Content Include="assets\images\test-images\work-for-sky.jpg" />
+    <Content Include="assets\images\tl_panel.png" />
+    <Content Include="assets\images\up.gif" />
+    <Content Include="assets\images\up.png" />
+    <Content Include="assets\js\charts.js" />
+    <Content Include="assets\js\filters.js" />
+    <Content Include="assets\js\forms.js" />
+    <Content Include="assets\js\functions.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\lib\contentflow.js" />
+    <Content Include="assets\js\lib\exporting.js" />
+    <Content Include="assets\js\lib\fineuploader.js" />
+    <Content Include="assets\js\lib\flip.js" />
+    <Content Include="assets\js\lib\highcharts.js" />
+    <Content Include="assets\js\lib\infobox.js" />
+    <Content Include="assets\js\lib\iosSlider.js" />
+    <Content Include="assets\js\lib\jquery-1.10.2.js" />
+    <Content Include="assets\js\lib\jquery.iosslider.min.js" />
+    <Content Include="assets\js\lib\jquery.omniture.js" />
+    <Content Include="assets\js\lib\jquery.sky.htmlplayer.js" />
+    <Content Include="assets\js\lib\map.js" />
+    <Content Include="assets\js\lib\require-2.1.9.min.js" />
+    <Content Include="assets\js\lib\rwdImageMaps.js" />
+    <Content Include="assets\js\lib\toolkit.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\mediaWidget.js" />
+    <Content Include="index.htm" />
+    <Content Include="new-templates\imagevideolibrarypage.aspx" />
+    <Content Include="new-templates\T00-landingpage.aspx" />
+    <Content Include="old-templates\slider.htm" />
+    <Content Include="old-templates\T1-[home].htm" />
+    <Content Include="old-templates\T10-[error].htm" />
+    <Content Include="old-templates\T11-[seeing-the-bigger-picture]-[approach].htm" />
+    <Content Include="old-templates\T12a-[doing-the-right-thing].htm" />
+    <Content Include="old-templates\T12b-[doing-the-right-thing].htm" />
+    <Content Include="old-templates\T13-[inspirational-opportunities]-[sky-academy].htm" />
+    <Content Include="old-templates\T14-[news-and-views]-[news].htm" />
+    <Content Include="old-templates\T15-[news-and-views]-[video].htm" />
+    <Content Include="old-templates\T16-[sustainability-reporting].htm" />
+    <Content Include="old-templates\T17-[sustainability-reporting]-[strategy].htm" />
+    <Content Include="old-templates\T18-[sustainability-reporting]-[data].htm" />
+    <Content Include="old-templates\T19-[about-sky].htm" />
+    <Content Include="old-templates\T2-[standard-landing].htm" />
+    <Content Include="old-templates\T20-[what-we-do]-[our-mission].htm" />
+    <Content Include="old-templates\T21-[other-information].htm" />
+    <Content Include="old-templates\T22-[other-information]-[commissioning-ideas].htm" />
+    <Content Include="old-templates\T23-[other-information]-[supplier].htm" />
+    <Content Include="old-templates\T24-[investors].htm" />
+    <Content Include="old-templates\T25-[media-centre].htm" />
+    <Content Include="old-templates\T26-[email].htm" />
+    <Content Include="old-templates\T27 - [alerts-email].htm" />
+    <Content Include="old-templates\T28-[events].htm" />
+    <Content Include="old-templates\T2a-[landing-with-newsfeed].htm" />
+    <Content Include="old-templates\T3-[basic-content].htm" />
+    <Content Include="old-templates\T5-[box-grid].htm" />
+    <Content Include="old-templates\T6-active-filters-1.htm" />
+    <Content Include="old-templates\T6-active-filters-2.htm" />
+    <Content Include="old-templates\T6-[full-news-feed].htm" />
+    <Content Include="old-templates\T6a-[full-news-feed].htm" />
+    <Content Include="old-templates\T6b-[full-news-feed].htm" />
+    <Content Include="old-templates\T7-[blog].htm" />
+    <Content Include="old-templates\T7a-[articles].htm" />
+    <Content Include="old-templates\T7b-[article].htm" />
+    <Content Include="old-templates\T8-[search-results].htm" />
+    <Content Include="old-templates\T9-[sitemap].htm" />
+    <Content Include="statics\content\accordions\accordion.htm" />
+    <Content Include="statics\content\lifecicleSlider\slider.htm" />
+    <Content Include="statics\content\lightbox\lightbox.htm" />
+    <Content Include="statics\content\modules\imagebox.html" />
+    <Content Include="statics\content\modules\downloadpopup.html" />
+    <Content Include="statics\content\sectionsBanner\banner.htm" />
+    <Content Include="statics\master\footer.htm" />
+    <Content Include="statics\master\head.htm" />
+    <Content Include="statics\master\header.htm" />
+    <Content Include="statics\master\HtmlPage1.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="new-templates\imagevideolibrarypage.aspx.cs">
+      <DependentUpon>imagevideolibrarypage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="new-templates\imagevideolibrarypage.aspx.designer.cs">
+      <DependentUpon>imagevideolibrarypage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="new-templates\T00-landingpage.aspx.cs">
+      <DependentUpon>T00-landingpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="new-templates\T00-landingpage.aspx.designer.cs">
+      <DependentUpon>T00-landingpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="animation-assets\scripts\lib\" />
+    <Folder Include="assets2015\scripts\lib\" />
+    <Folder Include="assets\js\jquery\plugins\" />
+    <Folder Include="templates\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62104</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62104/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

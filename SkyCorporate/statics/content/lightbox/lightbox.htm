@@ -1,0 +1,75 @@
+﻿<a id="lightbox-demo-link" href="#!lightbox/demo">
+    Show Lightbox from DOM</a>
+<article id="lightbox-demo" class='hidden lightbox-wrapper' aria-labelledby="lightbox-demo-link">
+    <div class="relative video-container" id="lightbox-video16d9d83a04394b19a9c07065c84ecbc6" data-tracking-theme="tracking-theme" data-tracking-label="This is the lightbox title" data-tracking-pod="This is the lightbox title" data-tracking-other="This is the lightbox title" data-video-id="clip-00hz6x6w">
+        <img src="/assets2015/images/samples/Untitled-12.jpg" style="width: 100%; height: auto;" />
+        
+        <a href="#!" class="play-video">
+            <i class="icon-video-play" aria-hidden="true"></i><span class="hidden-mobile">Watch now</span>
+        </a>
+       <script>
+           if (typeof require != "undefined") {
+               if (require.version != "2.0.5")
+                   require(['toolkit'], function () {
+                       $('#lightbox-video16d9d83a04394b19a9c07065c84ecbc6').video({
+                           token: '8D5B12D4-E1E6-48E8-AF24-F7B13050EE85', //this token should be unique to your team
+                           displayAdverts: true
+                       });
+                   });
+           }
+        </script>
+    </div>
+    <!-- Note you can use the sky-grid in lightboxes -->
+    <div class="skycom-container clearfix">
+        <div class="skycom-12 alpha">
+            <h2>Large Lightbox</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>Other Links</h3>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="skycon-chevron colour"></i>Lorem Ipsum</a></li>
+                <li>
+                    <a href="#">
+                        <i class="skycon-chevron colour"></i>Dolor sit amet</a></li>
+                <li>
+                    <a href="#">
+                        <i class="skycon-chevron colour"></i>Consectetur adipisicing elit</a></li>
+                <li>
+                    <a href="#">
+                        <i class="skycon-chevron colour"></i>Sed do eiusmod</a></li>
+                <li>
+                    <a href="#">
+                        <i class="skycon-chevron colour"></i>Tempor incididunt</a></li>
+                <li>
+                    <a href="//www.sky.com">
+                        <i class="skycon-chevron colour"></i><span>Inside span</span> outside span</a></li>
+                <li>
+                    <a href="//www.sky.com">
+                        <i class="skycon-chevron colour"></i>Sky Homepage (external link)</a></li>
+            </ul>
+            <br />
+            <br />
+        </div>
+        <div class="skycom-5">
+        </div>
+    </div>
+</article>
+<script>
+
+    require(['toolkit'], function () {
+        //JS for default lightbox
+        $('#lightbox-demo-link').lightbox();
+
+        //JS for default lightbox with callbacks (onShow and onClose)
+        $('#lightbox-demo-link-with-callbacks').lightbox({
+            onShow: function () {
+                $('[data-function=carousel]').trigger("pause");
+                $('#lightbox-demo-with-callbacks').trigger('my-lightbox-opened');
+            }, onClose: function () {
+                $('#lightbox-demo-with-callbacks').trigger('my-lightbox-closed');
+            }
+        });
+    });
+                         
+</script>

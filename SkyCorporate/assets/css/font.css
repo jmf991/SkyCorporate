@@ -1,0 +1,20 @@
+.editable-content table { border-spacing: 0; width: 100%; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; }
+.editable-content table th,
+.editable-content table td { border-top: 1px solid #ccc; padding: 5px; border-right: 1px solid #ccc; }
+.editable-content table tr {}
+.editable-content table tr:nth-child(2n-1) { background-color: #f5f5f5; }
+
+.editable-content ol { list-style:decimal; list-style-position:outside; }
+.editable-content ol li { margin:0 0 0.5em 1.2em }
+
+.editable-content ul { list-style:none; list-style-position:outside;   }
+.editable-content ul li { margin: 0 0 0.5em 1.2em; position: relative; }
+.editable-content ul li:before { color: #999; content: '•'; display: block; margin-left: -1.2em; position: absolute; text-align: center; width: 1em; }
+
+.editable-content h1,
+.editable-content h2,
+.editable-content h3,
+.editable-content h4,
+.editable-content h5,
+.editable-content h6,
+.editable-content p { margin-top: 0; }

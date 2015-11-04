@@ -1,0 +1,60 @@
+﻿<article id="lightbox-demo" class='hidden' aria-labelledby="lightbox-demo-link">
+
+    <!-- Note you can use the sky-grid in lightboxes -->
+    <div class="skycom-container clearfix">
+        <div class="skycom-6 alpha">
+            <div class="lightbox-image-wrapper">
+                <img src="/assets/images/test-images/box-dark.jpg" height="380" width="1140" style="width: 100%; height: auto;" />
+            </div>
+        </div>
+        <div class="skycom-6">
+            <div class="lightgrey-bg p-lightbox-right m5">
+                <h2 class="underline">Sky Q</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <form action="http://search.sky.com/skycom/search" class="sky-form">
+
+                    <select id="title" name="title" required="">
+                        <option value="">Please select</option>
+                    </select>
+
+                    <input class="margin-top-15 input-width" id="lightboxInput" name="term" type="text" placeholder="focusable input">
+                    <input class="margin-top-15 input-width" id="lightboxInput" name="term" type="text" placeholder="focusable input">
+                    <input class="margin-top-15 input-width" id="lightboxInput" name="term" type="text" placeholder="focusable input">
+                    <input class="margin-top-15 input-width" id="lightboxInput" name="term" type="text" placeholder="focusable input">
+
+                </form>
+
+
+                <div class="row no-border margin-top-15">
+                    <input type="checkbox" name="confirm_terms" value="true" id="confirm-terms">
+                    <label for="confirm-terms"><a href="#"> I agree to the Terms &amp; Conditions</a></label>
+                </div>
+                    <div class="row no-border no-border">
+                        <button type="submit" class="btn">Search</button>
+                        <button type="submit" class="btn">Search</button>
+                    </div>
+                
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+</article>
+
+
+
+<script>
+    require(['toolkit'], function () {
+        $('#lightbox-demo-link').lightbox();
+    });
+</script>

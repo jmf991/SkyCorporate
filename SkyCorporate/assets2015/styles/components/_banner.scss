@@ -1,0 +1,32 @@
+.sections-banner {  }
+
+.section-banner-item img { display: block; width: 100%; }
+.section-banner-item .item-caption { position: absolute; bottom: 0; left: 0; width: calc(100% - 40px); padding: 20px; color: #FFF;   z-index: 2; pointer-events: none;}
+.section-banner-item.active .item-caption { text-decoration: underline; }
+.section-banner-item {  position: relative; }
+.sections-banner .gradient-line { width: 100%; height: 25px; display: block;}
+.section-banner-item:after  { content: " "; position: absolute; top: 0; left: 0; width: 100%; height: 100%;  z-index: 1; background: -moz-linear-gradient(top,  rgba(0,0,0,0) 62%, rgba(0,0,0,0.97) 99%, rgba(0,0,0,1) 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(62%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.97)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 62%,rgba(0,0,0,0.97) 99%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  rgba(0,0,0,0) 62%,rgba(0,0,0,0.97) 99%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  rgba(0,0,0,0) 62%,rgba(0,0,0,0.97) 99%,rgba(0,0,0,1) 100%); /* IE10+ */ background: linear-gradient(to bottom,  rgba(0,0,0,0) 62%,rgba(0,0,0,0.97) 99%,rgba(0,0,0,1) 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */ pointer-events: none; }
+@media only screen and (min-width: 970px)
+{
+	.section-banner-item { float: left; width: 20%;  }
+	.section-banner-item .mobile-image { display: none; }	
+}
+@media only screen and (max-width: 970px)
+{
+	.section-banner-item { background: url(/assets2015/images/sky_colour_bar.jpg) repeat-y 0 0; padding: 0 0 20px; background-size: 100% auto; z-index: 3;  }
+	.section-banner-item .mobile-image { display: block; }
+	.section-banner-item .desktop-image {display: none;  }
+	.sections-banner .gradient-line { display: none;}
+	.section-banner-item .item-caption { padding-bottom: 40px; }
+	.section-banner-item:after  {  height: calc(100% - 20px);}
+}
+
+
+
+.banner-ar2015 { padding-bottom: 3px; background: url("/assets/images/ar2015/banner-border.jpg") no-repeat left bottom rgba(0, 0, 0, 0); background-size: 100% auto; margin-bottom:20px !important; }
+.banner-ar2015 .title { font-size: 31px; line-height: 40px; color: #a62a79; }
+.banner-ar2015 .profile-image { display: block; }
+
+
+.banner-ar2015.banner-font-size-35  .title {font-size: 35px;  }
+.banner-ar2015.banner-font-size-24  .title { font-size: 22px; line-height: 30px; }

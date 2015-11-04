@@ -1,0 +1,11 @@
+﻿/********** IE8 **********/
+@media \0screen {  
+    .skycom-carousel .carousel-content { display: block; width: 100% !important; }
+    .skycom-carousel .carousel-content h3 { width: 400px }
+    .skycom-carousel .carousel-content p { width: 400px }
+    
+    .skycom-carousel .bg-shading.dark-scheme .shade { background: url(/assets/css/images/ie8-mf-hack.png) repeat-y 0 0 transparent; }
+    .skycom-carousel figure { display: block; width: 100%; }
+}
+
+/********** END HACKS **********/
