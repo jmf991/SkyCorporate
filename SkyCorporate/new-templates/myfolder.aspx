@@ -82,7 +82,7 @@
                     $('#whole-page-nav-tabs').inPageNav();
                 });
             </script>
-            <div class="skycom-12 m40 sky-form">
+            <div class="skycom-12 mb40 sky-form">
                 <p class="pod-title">Welcome to your saved images folder.</p>
                 <a href="#" class="btn">Download all images</a>
                 <a href="#" class="btn">Download all images</a>

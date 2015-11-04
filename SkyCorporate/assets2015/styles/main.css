@@ -365,8 +365,8 @@ a.btn.secondary, a.btn.btn--secondary, .btn.secondary, .btn.btn--secondary {
 .m5 {
   margin: 5px !important; }
 
-.m40 {
-  margin: 40px !important; }
+.mb40 {
+  margin-bottom: 40px !important; }
 
 .mr0 {
   margin-right: 0px !important; }
