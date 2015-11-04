@@ -91,7 +91,6 @@
     <Content Include="assets\css\print.css" />
     <Content Include="assets\css\screens.css" />
     <Content Include="new-templates\myfolder.aspx" />
-    <Content Include="packages.config" />
     <Content Include="assets2015\styles\components\_banner.scss" />
     <Content Include="assets2015\styles\components\_flippingCards.scss" />
     <Content Include="assets2015\styles\components\_map.scss" />
