@@ -68,7 +68,7 @@
   <ItemGroup>
     <Content Include="assets2015\images\sky-product1.png" />
     <Content Include="assets2015\styles\components\custom.css">
-      <DependentUpon>_custom.scss</DependentUpon>
+      <DependentUpon>_imagegalery.scss</DependentUpon>
     </Content>
     <Content Include="assets\css\contentflow.css" />
     <Content Include="assets\css\fineuploader.css" />
@@ -99,7 +99,7 @@
     <Content Include="assets2015\styles\components\_sgbak\_slider.scss.2015-04-20.15-56-56.7333" />
     <Content Include="assets2015\styles\main.css.map" />
     <Content Include="assets2015\styles\main.scss" />
-    <Content Include="assets2015\styles\components\_custom.scss" />
+    <Content Include="assets2015\styles\components\_imagegalery.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

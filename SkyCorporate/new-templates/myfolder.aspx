@@ -75,13 +75,13 @@
                     $('#whole-page-nav-tabs').inPageNav();
                 });
             </script>
-            
+
         </div>
         <!-- /content-head -->
 
         <div class="skycom-container clearfix impulses-wrapper media-library-wrapper">
             <div class="skycom-12 mb40 sky-form">
-                <p class="pod-title">Welcome to your saved images folder.</p>
+                <p class="pod-title my-folder-title">Welcome to your saved images folder.</p>
                 <a href="#" class="btn">Download all images</a>
                 <a href="#" class="btn">Download all images</a>
                 <a href="#" class="btn btn--secondary">Empty folder</a>
@@ -116,11 +116,6 @@
                 <!--#include virtual="/statics/content/modules/imagebox.html"-->
             </div>
             <div class="clearfix"></div>
-
-
-
-
-
 
         </div>
         <div class="clearfix"></div>

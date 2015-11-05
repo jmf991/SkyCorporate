@@ -400,5 +400,7 @@ a.btn.secondary, a.btn.btn--secondary, .btn.secondary, .btn.btn--secondary {
     float: left;
     clear: left;
     margin-bottom: 10px; } }
+.my-folder-title {
+  margin-top: 0px; }
 
 /*# sourceMappingURL=main.css.map */
