@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets2015\images\sky-product1.png" />
     <Content Include="assets2015\styles\components\custom.css">
       <DependentUpon>_custom.scss</DependentUpon>
     </Content>

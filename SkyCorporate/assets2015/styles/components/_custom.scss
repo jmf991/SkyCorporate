@@ -21,3 +21,13 @@
 .lightbox-image-wrapper { margin: 5px; text-align: center; }
 
 .input-width {width: 95% !important; }
+
+
+@media only screen and (max-width: 767px) {
+
+    .media-library-wrapper .btn {     display: block;
+    float: left;
+    clear: left;
+    margin-bottom: 10px; }
+
+}

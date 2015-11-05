@@ -63,14 +63,7 @@
                                 <a href="#!whole-page-seventh" class="ellipsis internal-link">
                                     <span>Product 7</span></a>
                             </li>
-                            <li id="whole-page-eighth-tab" aria-label="eighth" role="tab" class="tab">
-                                <a href="#!whole-page-eighth" class="ellipsis internal-link">
-                                    <span>Product 8</span></a>
-                            </li>
-                            <li id="whole-page-ninth-tab" aria-label="ninth" role="tab" class="tab">
-                                <a href="#!whole-page-ninth" class="ellipsis internal-link">
-                                    <span>Product 9</span></a>
-                            </li>
+
                         </ul>
                     </section>
                 </div>
@@ -82,16 +75,19 @@
                     $('#whole-page-nav-tabs').inPageNav();
                 });
             </script>
+            
+        </div>
+        <!-- /content-head -->
+
+        <div class="skycom-container clearfix impulses-wrapper media-library-wrapper">
             <div class="skycom-12 mb40 sky-form">
                 <p class="pod-title">Welcome to your saved images folder.</p>
                 <a href="#" class="btn">Download all images</a>
                 <a href="#" class="btn">Download all images</a>
                 <a href="#" class="btn btn--secondary">Empty folder</a>
             </div>
-        </div>
-        <!-- /content-head -->
 
-        <div class="skycom-container clearfix impulses-wrapper">
+
             <div class="skycom-4 alpha">
                 <!--#include virtual="/statics/content/modules/imagebox.html"-->
             </div>

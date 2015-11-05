@@ -394,4 +394,11 @@ a.btn.secondary, a.btn.btn--secondary, .btn.secondary, .btn.btn--secondary {
 .input-width {
   width: 95% !important; }
 
+@media only screen and (max-width: 767px) {
+  .media-library-wrapper .btn {
+    display: block;
+    float: left;
+    clear: left;
+    margin-bottom: 10px; } }
+
 /*# sourceMappingURL=main.css.map */

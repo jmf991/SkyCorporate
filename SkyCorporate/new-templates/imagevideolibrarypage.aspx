@@ -78,6 +78,11 @@
                     $('#whole-page-nav-tabs').inPageNav();
                 });
             </script>
+            
+        </div>
+        <!-- /content-head -->
+
+        <div class="skycom-container clearfix impulses-wrapper media-library-wrapper">
             <div class="skycom-12 p20 sky-form">
                 <select id="title" name="title" required="">
                     <option value="">Please select</option>
@@ -90,10 +95,7 @@
                 </select>
                 <input id="first_name_g" type="text" placeholder="eg. Joe Bloggs">
             </div>
-        </div>
-        <!-- /content-head -->
 
-        <div class="skycom-container clearfix impulses-wrapper">
             <div class="skycom-4 alpha">
                 <!--#include virtual="/statics/content/modules/imagebox.html"-->
             </div>
