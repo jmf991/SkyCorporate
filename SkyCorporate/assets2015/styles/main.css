@@ -399,7 +399,15 @@ a.btn.secondary, a.btn.btn--secondary, .btn.secondary, .btn.btn--secondary {
     display: block;
     float: left;
     clear: left;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+
+  .media-library-wrapper input,
+  .media-library-wrapper select {
+    display: block;
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+    width: 221px !important; } }
 .my-folder-title {
   margin-top: 0px; }
 
